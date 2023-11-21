@@ -27,11 +27,14 @@
                   <h2 class="card-title">triangel</h2>
                   <p>area (A)=0.5 X b x h</p>
                   <p>
-                     <input type="text" name="" id="">
-                     <span>cm</span>
+                     <input type="text" class="w-20 text-white px-2" name="" id="triangel_base" placeholder="b">
+                     <span class="ml-2">cm</span>
+                     <input type="text" class="w-20 text-white px-2" name="" id="triangel_height" placeholder="h">
+                     <span class="ml-2">cm</span>
                   </p>
+                  <p>area <span id=""></span></p>
                   <div class="card-actions">
-                     <button class="btn btn-primary">Buy Now</button>
+                     <button onclick="triangel()" class="btn btn-primary">calculate</button>
                   </div>
                </div>
             </div>
@@ -69,6 +72,9 @@
       </div>
 
    </main>
+
+
+   <script src="area.js"></script>
 </body>
 
 </html>
